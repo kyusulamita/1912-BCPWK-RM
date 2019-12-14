@@ -45,7 +45,7 @@
 
 ## **03 Coercion and Truthiness**
 
-**[Live Lecture](https://youtu.be/KzUk8zK4BXs)**
+**[Live Lecture](https://youtu.be/SbMu4XnWNi4)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac574e51abd3200043c12e8/content/5ac574e51abd3200043c12ed/text)
 
