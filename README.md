@@ -28,7 +28,7 @@
 
 ## **02 Loops And Debugging**
 
-**[Live Lecture]()**
+**[Live Lecture](https://youtu.be/1_hCZCrKIrI)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac57192f7ff470004a63148/content/5ac572977ec3340004bddd57/text)
 
@@ -45,7 +45,7 @@
 
 ## **03 Coercion and Truthiness**
 
-**[Live Lecture](https://youtu.be/siYSIF4Ttjc)**
+**[Live Lecture](https://youtu.be/KzUk8zK4BXs)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac574e51abd3200043c12e8/content/5ac574e51abd3200043c12ed/text)
 
