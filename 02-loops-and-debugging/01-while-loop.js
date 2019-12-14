@@ -31,9 +31,8 @@
 //  // (or until the machine running the code runs out of memory)
 // }
 
-let count = 3;
-// have to make sure the conditional is eventually false!
-while (count >= 1) {
-  console.log('count is', count);
-  //count--;
-}
+// let count = 3;
+// // have to make sure the conditional is eventually false!
+// while (count >= 1) {
+//   console.log('count is', count);
+// }
