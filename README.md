@@ -4,8 +4,10 @@
 ## Table of Contents
 1. [Introduction And Tidy Code](#01-introduction-and-tidy-code)
 2. [Loops And Debugging](#02-loops-and-debugging)
-## Additional Resources
 3. [Coercion And Truthiness](#03-coercion-and-truthiness)
+
+
+## Additional Resources
 
 * [Repl.it](https://repl.it/repls) Play around with code!
 * [Code Visualizer](http://www.pythontutor.com/visualize.html#mode=edit) Visualize your code step by step
