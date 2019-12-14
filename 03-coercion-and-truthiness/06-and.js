@@ -14,16 +14,10 @@
   or the last value if all are truthy 
 */
 
-// let returnedValue1 = 10 && 'apples' && 0 && null;
+// let returnedValue1 = 10 && 'apples' && '' && 0 && null;
 // console.log('returnedValue1:', returnedValue1);
 
 
 // let returnedValue2 = 'lucky' && 'number' && 7;
 // console.log('returnedValue2:', returnedValue2);
 
-
-// if (!null) {
-//   console.log('if')
-// } else {
-//   console.log('else')
-// }

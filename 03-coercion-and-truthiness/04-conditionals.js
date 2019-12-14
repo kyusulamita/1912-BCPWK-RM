@@ -5,41 +5,41 @@
 // console.log(NaN == undefined)
 // console.log(NaN === NaN)
 
-// if("apples"){
-//   console.log("in the if")
+// if ('apples'){
+//   console.log('in the if')
 // } else {
-//   console.log("else")
+//   console.log('else')
 // }
 
-// if(Boolean("apples")){
-//   console.log("in the if")
+// if (Boolean('apples')){
+//   console.log('in the if')
 // } else {
-//   console.log("else")
+//   console.log('else')
 // }
 
 
-// if(""){
-//   console.log("in the if")
+// if ('') {
+//   console.log('in the if')
 // } else {
-//   console.log("else")
+//   console.log('else')
 // }
 
-// if(Boolean("")){
-//   console.log("in the if")
+// if (Boolean('')) {
+//   console.log('in the if')
 // } else {
-//   console.log("else")
+//   console.log('else')
 // }
 
-// if(10){
-//   console.log("in the if")
+// if (10) {
+//   console.log('in the if')
 // } else {
-//   console.log("else")
+//   console.log('else')
 // }
 
-// if(Boolean(10)){
-//   console.log("in the if")
+// if (Boolean(10)) {
+//   console.log('in the if')
 // } else {
-//   console.log("else")
+//   console.log('else')
 // }
 
 
@@ -49,7 +49,7 @@
 //   console.log('else')
 // }
 
-// if ((30 + 20 - 50)){
+// if ((30 + 20 - 50))  {
 //   console.log('in the if')
 // } else {
 //   console.log('else')
@@ -66,3 +66,12 @@
 // } else {
 //   console.log('else')
 // }
+
+
+//
+let count = 5;
+
+// if i have nothing, if count is 0
+if (!count) {
+  console.log('sorry i have no  more to share')
+}
