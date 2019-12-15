@@ -1,11 +1,19 @@
-let numbers = [1, 2, 3];
+/* An array is a list-like data structure in JavaScript */
+
+let numbers = [23, 34, 2];
+
+let petNames = ['Mr. Bear', 'Mr. Sheep', 'Planty', 'Pusheen'];
+
+let strVar = 'a value';
+let numVar = 34;
+
+
+let mixedBag = [ 30 , true, 'apples', null, strVar, numVar ];
+
+/* the values inside of an array are called elements */
+
+console.log(typeof petNames);
+
 let names = ['George', 'John', 'Thomas'];
-let aVariable = 'a value';
-let mixedBag = [30, true, 'apples', null, aVariable];
-
-// let names = ['George', 'John', 'Thomas'];
-// console.log(typeof names);
-
-// let names = ['George', 'John', 'Thomas'];
-// console.log(Array.isArray(names));
-// console.log(Array.isArray('i am not an array'));
+console.log(Array.isArray(names));
+console.log(Array.isArray('i am not an array'));

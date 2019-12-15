@@ -12,36 +12,39 @@ http://www.pythontutor.com/visualize.html#code=let%20petNames%20%3D%20%5B'Mr.%20
 */
 
 let petNames = ['Mr. Bear', 'Mr. Sheep', 'Planty', 'Pusheen'];
-console.log(petNames)
-// let petNames2 = petNames.slice();
-// // let petNames2 = petNames;
+// console.log(petNames)
+// // let petNames2 = petNames.slice();
+// let petNames2 = petNames;
+// console.log(petNames2);
 
 // petNames.push("Theodore");
 
-// console.log(petNames);
-// console.log(petNames2);
+// console.log("petnames", petNames);
+// console.log("petNames2 ", petNames2);
 
 
 // no params, makes copy of the whole thing
-// let petNamesCopy = petNames.slice();
-// console.log(petNamesCopy);
+let petNamesCopy = petNames.slice();
+console.log(petNamesCopy);
 
 // one argument, we start at index two and go all the way to the end
-// petNamesCopy = petNames.slice(2);
-// console.log(petNamesCopy) 
+petNamesCopy = petNames.slice(2);
+console.log(petNamesCopy);
 // two arguments, we start at index 1 and start right before index 3
-// petNamesCopy = petNames.slice(1, 3);
-// console.log(petNamesCopy) 
+petNamesCopy = petNames.slice(1, 3);
+console.log(petNamesCopy);
 
-// // one argument, we start 3 BEFORE THE END
-// petNamesCopy = petNames.slice(-3);
-// console.log(petNamesCopy)
-// // two arguments, we start 3 BEFORE THE END and stop 1 BEFORE THE END
-// petNamesCopy = petNames.slice(-3, -1);
-// console.log(petNamesCopy);
+// one argument, we start 3 BEFORE THE END
+petNamesCopy = petNames.slice(-3);
+console.log(petNamesCopy)
+// two arguments, we start 3 BEFORE THE END and stop 1 BEFORE THE END
+petNamesCopy = petNames.slice(-3, -1);
+console.log(petNamesCopy);
 
+petNamesCopy = petNames.slice(2, 1);// = []
+console.log(petNamesCopy);
 
-
+// .splice()
 
 // https://goo.gl/6PGgVA REVERSE
 // let reversedArr = petNames.reverse();
@@ -51,5 +54,5 @@ console.log(petNames)
 
 // let petNamesCopy = petNames.slice(); // returns an array
 // let petNamesRev = petNamesCopy.reverse(); // .reverse is an array method
-let petNamesReversed = petNames.slice().reverse();
-console.log(petNamesReversed);
+// let petNamesReversed = petNames.slice().reverse();
+// console.log(petNamesReversed);

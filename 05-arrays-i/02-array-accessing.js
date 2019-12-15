@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 /* 
   Accessing values
 */
@@ -13,10 +14,11 @@
   Assigning values
 */
 
+
 // let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
 
-// names[0] = "Sir Bear III"
-// names[2] = "McPlanty"
+// names[0] = "Sir Bear III";
+// names[2] = "McPlanty";
 // console.log(names);
 
 /* 
@@ -30,10 +32,11 @@ console.log(names.length);
 
 for (let i = 0; i < names.length; i++) {
   const element = names[i];
-  console.log(element)
+  console.log('the element at ', i , ' is ', element)
 
   names[i] = element.toUpperCase();
 }
 
 
-console.log(names)
+console.log(names);
+
