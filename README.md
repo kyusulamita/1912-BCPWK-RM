@@ -7,6 +7,7 @@
 3. [Coercion And Truthiness](#03-coercion-and-truthiness)
 4. [Scope](#04-scope)
 5. [Arrays I](#05-arrays-i)
+6. [Arrays II](#06-arrays-ii)
 
 
 ## Additional Resources
@@ -103,3 +104,20 @@
 4. [Shift + Unshift](05-array-i/04-shift-unshift.js)
 5. [More methods](05-array-i/05-more-methods.js)
 6. [Slice + Reverse](05-array-i/06-slice.js)
+
+
+## **06 Arrays II**
+
+**[Live Lecture](https://youtu.be/jRuFyMqquVQ)**
+
+[Workshop](https://learn.fullstackacademy.com/workshop/5ac579437ec3340004bdde15/content/5ac579437ec3340004bdde1a/text)
+
+[Solutions](https://learn.fullstackacademy.com/workshop/5ac579437ec3340004bdde15/content/5ac579437ec3340004bdde1b/text)
+
+### Notes 
+[Full Notes](06-array-ii)
+
+1. [Splice](06-array-ii/01-splice.js)
+2. [Join + Split](06-array-ii/02-join-split.js)
+3. [Concat](06-array-ii/03-concat.js)
+4. [Nested Arrays](06-array-ii/04-nested-arrays.js)
