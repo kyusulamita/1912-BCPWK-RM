@@ -37,7 +37,7 @@ let grid = [
   [21, 22, 23],
   [31, 32, 33],
 ];
-// console.log(grid);
+console.log(grid);
 // row
 // console.log(grid[1])
 // columns -> the second index doesn't change
@@ -50,13 +50,28 @@ let grid = [
 // }
 // console.log(firstColumn);
 
-for (let i = 0; i < grid.length; i++) {
-  const row = grid[i]; // grab the row
-  console.log(row);
-  for (let j = 0; j < row.length; j++){ // iterate over every element in the row
-    // const elem = row[j]; //grid[i][j]
+function giveMeColumn(twoDimArr, columnIdx) {
+  const column = [];
 
-    // console.log("The elem at row", i + 1, "and column", j+1, "is", elem);
+  for (let i = 0; i < twoDimArr.length; i++){
+    const row = twoDimArr[i];
+    const elem = row[columnIdx];
+    column.push(elem);
   }
+
+  return column;
 }
+
+const thirdColumn = giveMeColumn(grid, 2);
+console.log("third columns", thirdColumn);
+
+// for (let i = 0; i < grid.length; i++) {
+//   const row = grid[i]; // grab the row
+//   console.log(row);
+//   for (let j = 0; j < row.length; j++){ // iterate over every element in the row
+//     // const elem = row[j]; //grid[i][j]
+
+//     // console.log("The elem at row", i + 1, "and column", j+1, "is", elem);
+//   }
+// }
 

@@ -8,13 +8,13 @@
 // let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
 // // join every element with a comma
 // let joinedString = names.join();
-
+// console.log(names);
 // console.log(typeof joinedString);
 // console.log(joinedString);
 
 
 // let names = ["Mr Bear", "Pusheen", "Planty", "Mr Sheep"];
-// // join every element with ' and '
+// // // join every element with ' and '
 // let joinedString = names.join(' and ');
 
 // console.log(typeof joinedString);
@@ -44,7 +44,7 @@
  */
 /* 
   .split 
-  Adds all the elements of an array separated by the specified separator string.
+  divides the string by the seperator, puts those seperation into an  array
   This doesn't mutate the string
   @param separator {string}
   @returns separatedArr {array}
@@ -53,13 +53,13 @@
 // const myStr = "Mr Bear and Pusheen and Planty and Mr Sheep";
 
 // const myArr = myStr.split(' and ')
-// const myArr = myStr.split()
+// const myArr = myStr.split('')
 // console.log(myStr);
 // console.log(myArr);
 
 
 let myStr = 'tacocat';
-const myArr = myStr.split("");
+const myArr = myStr.split('');
 console.log(myArr)
 
 // // // this can't happen if it's a string
@@ -67,5 +67,5 @@ myArr[0] = 'L';
 myArr[1] = 'o';
 
 console.log(myArr);
-myStr = myArr.join('');
-console.log(myStr);
+const newStr = myArr.join('');
+console.log(newStr);
