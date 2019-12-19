@@ -29,24 +29,32 @@ let pusheen = {
   greet: function(){
     console.log("Hello I am pusheen the cat.");
   },
-  getBirthYear: function(currentYear = 2019){
-    // if (currentYear === undefined){
-    //   currentYear = 2019;
-    // }
+  getBirthYear: function(currentYear){
     return currentYear - 7;
   },
-  getAgeInNYears: function(years){
-    return 7 + years;
+
+  personalGreet: function(name = 'Sam') {
+    console.log(`Hello ${name}! I am Pusheen.`);
+  },
+
+  sayAge: function(){
+    console.log("I am 7 years old.");
   }
 };
 
-console.log(pusheen.getBirthYear(2017))
-console.log(pusheen.getBirthYear())
+
+console.log(pusheen.getBirthYear(2019));
+pusheen.personalGreet('Sula');
+
+pusheen.sayAge();
 
 
-pusheen.greetSulamita = function(){
-  console.log("Hello Sulamita")
-}
-// pusheen["greetSulamita"] = 
+pusheen.age += 7;
 
-pusheen.greetSulamita()
+console.log(pusheen.age);
+pusheen.sayAge();
+
+pusheen.name = 'Pusheen III';
+
+pusheen.greet();
+

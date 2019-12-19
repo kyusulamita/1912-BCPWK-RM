@@ -25,13 +25,13 @@
 // pusheen.greet("Liz");
 // pusheen.greet("Paige");
 
-// let pusheen = {
+// let pusheenTheThird = {
 //   name: 'Pusheen',
 //   age: 7,
 //   color: 'gray and tabby',
 //   isHappy: true,
 //   greet: function(name){
-//     console.log(`Hello ${name}, I am ${pusheen.name} the ${pusheen.color} cat. I am ${pusheen.age}.`);
+//     console.log(`Hello ${name}, I am ${pusheenTheThird.name} the ${pusheenTheThird.color} cat. I am ${pusheenTheThird.age}.`);
 //     // console.log("Hello " + name + " , I am Pusheen the gray and tabby cat. I am 7.");
 
 //   },
@@ -47,8 +47,8 @@
 // pusheen.age++;
 // pusheen.name = "Pusheen the Great"
 
-// // console.log(JSON.stringify(pusheen, null, 2))
-// console.log(pusheen)
+// console.log(JSON.stringify(pusheen, null, 2));
+// console.log(pusheen);
 // pusheen.greet("Liz");
 // pusheen.greet("Paige");
 
@@ -64,18 +64,31 @@
 //     // console.log("Hello " + name + " I am " + this.name + " the " + this.color + " cat. I am " + this.age + ".");
 //   },
 //   birthYear: function(currentYear){
-//     // how can we change this method??
-//     return currentYear - this.age;
+//     return currentYear - this.age; // 2019 - 7 = 2012
 //   },
 //   arrowMethod: (name) => {
 //     // this != pusheen;
 //     console.log(`Hello ${name}, I am ${this.name} the ${this.color} cat. I am ${this.age}`);
 //     // console.log("Hello " + name + " I am " + this.name + " the " + this.color + " cat. I am " + this.age);
+//   },
+//   getThis: function() {
+//     return this;
 //   }
 
 // };
+
+// const maybePusheen = pusheen.getThis();
+// console.log(maybePusheen === pusheen);
+// console.log([] === []);
+// const a = [];
+// console.log(a === a);
+
+// console.log({a: true, b: true} === {a: true, b: true});
+// const b = {a: true, b: true};
+// console.log(b === b);
+
 // pusheen.age += 10;
-// // pusheen.greet("Pond");
+// pusheen.greet("Pond");
 // console.log(pusheen.age)
 // console.log(pusheen.birthYear(2019));
 // pusheen.arrowMethod("Christine");
@@ -116,7 +129,6 @@ let pusheen = {
   }
 };
 
-
 // const a = { a: 1 };
 // const b = { a: 1 };
 // console.log(a === b);
@@ -131,15 +143,17 @@ let pusheen = {
 // console.log(pusheen);
 
 // pusheen.levelUp = function(levels = 1){
-//   this.level += levels
+//   // 10 
+//   this.level += levels;
 //   if (this.level > 30){
 //     this.name = "The best of all time"
-//   } 
+//   }
+
 //   if (this.level < 20){
 //     this.name = "Pusheen"
 //   }
-//   return this.level
-// }
+//   return this.level;
+// };
 
 // console.log(pusheen)
 // pusheen.levelUp(10)
@@ -152,25 +166,31 @@ const pip = {
   name: 'Pip',
   age: 5,
   color: 'Orange',
+  species: 'Cat'
 }
 
 const mrBear = {
   name: 'Mr Bear',
   color: 'brown',
   age: 2,
+  species: 'Bear',
   salute: function(name){
-    console.log(`Hello ${name}, I am ${this.name} the ${this.color} animal.`);
+    console.log(`Hello ${name}, I am ${this.name} the ${this.color} ${this.species}.`);
   },
 }
 
-mrBear.salute("Nicholas")
-pip.salute = mrBear.salute
-pip.name = "Pip the little guy"
-pip.salute("Sara")
+mrBear.salute('Karolina');
+pip.sayHi = mrBear.salute;
+// pip.sayHi = function(name){
+//  this => pip
+//   console.log(`Hello ${name}, I am ${this.name} the ${this.color} ${this.species}.`);
+// };
+// pip.name = "Pip the little guy"
+pip.sayHi("Sara")
 
 
 // pusheen.greet("Alvin")
-// pip.greet = pusheen.greet;
-// pip.greet('Alvin')
+pip.greet = pusheen.greet;
+pip.greet('Alvin')
 
 

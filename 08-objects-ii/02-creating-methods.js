@@ -28,9 +28,12 @@ let pusheen = {
   isHappy: true,
   myMethod: function(){
     console.log("This is my method");
+  },
+  sayHi: function() {
+    console.log('Hello I am pusheen.')
   }
 };
 
-console.log(pusheen.myMethod);
+// console.log(pusheen.myMethod);
 console.log(pusheen.name);
-pusheen.myMethod();
+pusheen.sayHi();
