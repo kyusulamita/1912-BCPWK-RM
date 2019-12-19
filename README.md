@@ -145,7 +145,7 @@
 
 ## **08 Object II**
 
-**[Live Lecture]()**
+**[Live Lecture](https://youtu.be/PFKqd0hpLOE)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5ac57cb8bd9f9e0004adb24a/content/5ac57cb8bd9f9e0004adb24e/text)
 
