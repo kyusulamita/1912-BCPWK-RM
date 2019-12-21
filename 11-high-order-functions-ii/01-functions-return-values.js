@@ -5,7 +5,7 @@ we know that functions can return values
 */
 
 function returnsAString() {
-  return 'I am a string';
+  return `Sup I'm a string!`;
 }
 
 let returnedValue = returnsAString();
