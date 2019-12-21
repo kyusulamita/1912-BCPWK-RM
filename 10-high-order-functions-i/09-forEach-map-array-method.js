@@ -21,11 +21,25 @@
     each element is the result of the callBackFunc
 */
 
-let bridges = ['Brooklyn', 'Golden Gate', 'London'];
+// let bridges = ['Brooklyn', 'Golden Gate', 'London'];
 
 // function logUpperCase(elem) {
 //   console.log(elem.toUpperCase());
 // }
+
+// bridges.forEach(logUpperCase);
+// const pets = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
+
+// function lovesToEat(name, idx){
+//   console.log(`${name} loves to eat. He is at index ${idx}`);
+//   return name.toUpperCase();
+// }
+
+// callsAllWith(pets, lovesToEat)
+
+// const forEachReturn = pets.forEach(lovesToEat);
+// console.log(pets);
+// console.log(forEachReturn);
 // function logUpperCase(bridge, i, arr) {
 //   console.log(bridge.toUpperCase(), `at index ${i}`);
 // }
@@ -46,7 +60,7 @@ let bridges = ['Brooklyn', 'Golden Gate', 'London'];
 
 
 // function ourForEach(arr, callBackFunc) {
-//   for(let i = 0; i < arr.length; i++) {
+//   for (let i = 0; i < arr.length; i++) {
 //     callBackFunc(arr[i], i, arr);
 //   }
 //   return undefined;
@@ -62,13 +76,25 @@ let bridges = ['Brooklyn', 'Golden Gate', 'London'];
 // }
 
 
-// ourForEach(bridges, logUpperCase);
+// function capitalizeNames(name, idx){
+//   console.log(`${name} loves to eat. He is at index ${idx}`);
+//   // return name.toUpperCase();
+// }
+
+// const pets = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
+
+// const petUpper = pets.map(capitalizeNames);
+// console.log(petUpper);
+// console.log(pets);
 
 const nums = [1, 2, 3, 4, 5];
 
-// function squareNum(num){
-//   return num *  num;
-// }
+function squareNum(num){
+  return num *  num;
+}
+
+// const numsSquared = nums.map(squareNum);
+// console.log(numsSquared);
 
 const numsSquared = nums.map(function(num) {
   return num * num;

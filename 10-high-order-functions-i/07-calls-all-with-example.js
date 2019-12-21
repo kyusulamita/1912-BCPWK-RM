@@ -45,24 +45,63 @@
 
 /* we can pass anonymous functions into another function, too */
 
-function callAllWith(names, sayWithNameFunc) {
-  for(let i = 0; i < names.length; i++) {
-    sayWithNameFunc(names[i]);
-  }
-}
-const group = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
+// function callAllWith(names, sayWithNameFunc) {
+//   for (let i = 0; i < names.length; i++) {
+//     sayWithNameFunc(names[i]);
+//   }
+// }
+// const group = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
 
 // let group = ["Jane", "Jill", "Pip", "Mike"];
 
-callAllWith(group, function (name) {
-  console.log("Bye, " + name + "!");
-});
-
-// callAllWith(pets, function(name){
-//   console.log(`I am anonymous, hello ${name}`);
+// callAllWith(group, function (name) {
+//   console.log("Bye, " + name + "!");
 // });
 
-callAllWith(group, (name) => {
-  console.log(`I am anonymous, hello ${name}`);
-});
+// callAllWith(pets, function(name){
+//   console.log(`${name} loves to jump.`);
+// });
 
+// callAllWith(group, (name) => {
+//   console.log(`${name} loves to jump.`);
+// });
+
+//
+
+
+// high order
+// callback 
+
+function callAllWith(arr, callbackFunc) {
+  for (let i = 0; i < arr.length; i++) {
+    const elem = arr[i];
+    callbackFunc(elem);
+  }
+}
+
+
+const pets = ['Mr Bear', 'Pusheen', 'Sookie', 'Winkie'];
+
+// function petLovesToJump(petName){
+//   console.log(`${petName} loves to jump.`)
+// }
+
+function lovesToEat(name){
+  console.log(`${name} loves to eat.`)
+}
+
+console.log(lovesToEat);
+// callAllWith(pets, petLovesToJump);  //
+// callAllWith(pets, lovesToEat); //
+
+
+const plants = ['Planty', 'Mr. Plant', 'Theodore'];
+// callAllWith(plants, lovesToEat);
+
+// function needsFertilizer(name) {
+//   console.log(`${name} need fertilizer.`)
+// }
+// callsAllWith(plants, needsFertilizer);
+callAllWith(plants, function (name) {
+  console.log(`${name} need fertilizer.`)
+})

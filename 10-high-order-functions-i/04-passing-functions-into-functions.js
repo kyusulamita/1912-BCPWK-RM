@@ -33,9 +33,10 @@ https://goo.gl/E9hXZc
 https://goo.gl/r7dHnj
 */
 
+// high order function <= taking in a function
 function callsAFunction(anotherFunction) {
   // anotherFunction(); // invoking this time
-  console.log("running")
+  console.log("running");
   anotherFunction();
 }
 
