@@ -204,7 +204,7 @@
 
 ## **11 High Order Functions II**
 
-**[Live Lecture]()**
+**[Live Lecture](https://youtu.be/9bCthQW47bg)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca4075097e670004598a96/content/5aca4075097e670004598a9a/text)
 
