@@ -11,10 +11,10 @@ function getGreeter(name1) {
   };
 }
 
-let introduceMarieTo = getGreeter('Marie');
-let introduceRosalindTo = getGreeter('Rosalind');
+let introduceMarieTo = getGreeter('Marie');  // (name) => 'Hi Marie, meet ${name}'
+let introduceRosalindTo = getGreeter('Rosalind'); // () => 'Hi Rosalind, meet ${name}'
 
-introduceMarieTo('Dorothy');
-introduceMarieTo('Albert');
+introduceMarieTo('Dorothy'); // 'Hi Marie, meet Dorothy'
+introduceMarieTo('Albert'); // 'Hi Marie, meet Albert'
 introduceRosalindTo('Barbara');
 introduceRosalindTo('Isaac');
