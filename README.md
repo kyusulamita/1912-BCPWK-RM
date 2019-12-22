@@ -223,3 +223,47 @@
 8. [Both have params](11-high-order-functions-ii/08-both-have-params.js)
 9. [Both have params II](11-high-order-functions-ii/09-both-have-params-ii.js)
 
+
+## **12 Recursion I**
+
+**[Live Lecture]()**
+
+[Workshop](https://learn.fullstackacademy.com/workshop/5aca423037312200043b634a/content/5aca423137312200043b634e/text)
+
+[Solutions](https://learn.fullstackacademy.com/workshop/5aca423037312200043b634a/content/5aca423137312200043b6350/text) 
+
+### Notes 
+[Full Notes](12-recursion-i)
+1. [Call Stack I](12-recursion-i/01-call-stack-i.js)
+2. [Call Stack II](12-recursion-i/02-call-stack-ii.js)
+3. [Iterative Countdown](12-recursion-i/03-iterative-countdown.js)
+4. [Countdown - Just Logging](12-recursion-i/04-countdown-just-logging.js)
+5. [Countdown - Only recursive case](12-recursion-i/05-countdown-only-recursive-case.js)
+6. [Countdown - recursive + base case](12-recursion-i/06-countdown-base-and-recursive-case.js)
+7. [Notes to keep in mind](12-recursion-i/07-important-notes-to-keep-in-mind.js)
+8. [Factorial - base case](12-recursion-i/08-factorial-base-case.js)
+9. [Factorial - simple recursive case](12-recursion-i/09-factorial-simple-recursive-case.js)
+10. [Factorial- solution + takeaways](12-recursion-i/10-factorial-solution-takeaways.js)
+11. [Recursion + arrays](12-recursion-i/11-recursion-and-arrays.js)
+
+
+## **13 Recursion II**
+
+**[Live Lecture]()**
+
+[Workshop](https://learn.fullstackacademy.com/workshop/5aca509c37312200043b6422/content/5aca509c37312200043b6426/text)
+
+[Solutions](https://codepen.io/FullstackAcademy/pen/dmMOEy?editors=0010) 
+
+### Notes 
+[Full Notes](13-recursion-ii)
+
+1. [Backwards String Review](13-recursion-ii/00-backward-string-review.js)
+2. [Array Base Case I](13-recursion-ii/01-array-base-case.js)
+3. [Array Base Case II](13-recursion-ii/02-array-base-case-ii.js)
+4. [Nested Array Recursion](13-recursion-ii/03-nested-array-recursion.js)
+5. [Array Base Case /w return](13-recursion-ii/04-array-base-case.js)
+6. [Nested Array Recursion /w return](13-recursion-ii/05-nested-array-recursion.js)
+7. [Object Base Case](13-recursion-ii/06-object-base-case.js)
+8. [Nested Object Recursion](13-recursion-ii/07-nested-object-recursion.js)
+9. [Search Party](13-recursion-ii/08-search-party.js)
