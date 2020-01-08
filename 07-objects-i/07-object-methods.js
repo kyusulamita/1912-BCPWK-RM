@@ -51,15 +51,15 @@ use Object.values() to get an array of the values in the object
   you will get a nested array here
 */
 
-// let pusheen = {
-//   name: 'Pusheen',
-//   age: 7,
-//   isHappy: true,
-//   color: 'gray and tabby'
-// };
+let pusheen = {
+  name: 'Pusheen',
+  age: 7,
+  isHappy: true,
+  color: 'gray and tabby'
+};
 
-// const arrOfEntries = Object.entries(pusheen);
-// console.log(arrOfEntries);
+const arrOfEntries = Object.entries(pusheen);
+console.log(arrOfEntries);
 
 
 // for (let i = 0; i < arrOfEntries.length; i++){

@@ -56,10 +56,10 @@ https://goo.gl/of193d
 //   return firstElem + sumOfRestOfArr; // 2 + 3
 // }
 
-console.log(recSumArr([]));// 0
-console.log(recSumArr([4])); // 4
-console.log(recSumArr([2, 3])); //5
-console.log(recSumArr([1, 2, 3, 4, 5])); //15
+// console.log(recSumArr([]));// 0
+// console.log(recSumArr([4])); // 4
+// console.log(recSumArr([2, 3])); //5
+// console.log(recSumArr([1, 2, 3, 4, 5])); //15
 
 /*
 https://goo.gl/rbnCUL
@@ -78,19 +78,19 @@ https://goo.gl/rbnCUL
 //   }
 // }
 
-function recSumArr(arr){
-  if (arr.length === 0){
-    return 0;
-  } else if (arr.length === 1){
-    return arr[0];
-  } else {
-    const lastElem = arr.pop();
-    const sumOfRestOfArr = recSumArr(arr);
-    return lastElem + sumOfRestOfArr;
-  }
-}
+// function recSumArr(arr){
+//   if (arr.length === 0){
+//     return 0;
+//   } else if (arr.length === 1){
+//     return arr[0];
+//   } else {
+//     const lastElem = arr.pop();
+//     const sumOfRestOfArr = recSumArr(arr);
+//     return lastElem + sumOfRestOfArr;
+//   }
+// }
 
-console.log(recSumArr([])); //0
-console.log(recSumArr([4])); //4
-console.log(recSumArr([1, 2, 3]));// 6
+// console.log(recSumArr([])); //0
+// console.log(recSumArr([4])); //4
+// console.log(recSumArr([1, 2, 3]));// 6
 

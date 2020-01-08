@@ -98,7 +98,9 @@ function countdown(num) {
   // recursive case
   if (num >= 1){
     console.log(num);
-    countdown(num--);
+    num--;
+    countdown(num);
+    // countdown(num--);  // 
     // countdown(num - 1); // countdown(num--); MAX CALL STACK EXCEEDED
     // countdown(--num); //perfectly fine
   } else {
