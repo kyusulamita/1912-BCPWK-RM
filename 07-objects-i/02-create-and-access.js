@@ -10,12 +10,12 @@ an object's keys are always strings; you can omit the quotation marks
 
 */
 
-// let pusheen = {
-//   name: 'Pusheen',
-//   age: 7,
-//   colour: 'gray and tabby',
-//   isHappy: true,
-// };
+let pusheen = {
+  name: 'Pusheen',
+  age: 7,
+  colour: 'gray and tabby',
+  isHappy: true,
+};
 
 
 /*
@@ -36,12 +36,12 @@ let pusheenTheSecond = {
   avoid mixing both formats though :( Not good practice
 */
 
-let pusheenTheThird = {
-  "name": 'Pusheen III',
-  age: 7,
-  colour: 'gray and tabby',
-  "isHappy": true,
-}
+// let pusheenTheThird = {
+//   "name": 'Pusheen III',
+//   age: 7,
+//   colour: 'gray and tabby',
+//   "isHappy": true,
+// }
 
 
 //
@@ -50,13 +50,13 @@ let pusheenTheThird = {
 
   
 
-let pusheen = {
-  name: 'Pusheen',
-  age: 7,
-  colour: 'gray and tabby',
-  isHappy: true,
-  favouriteFood: 'cookies',
-};
+// let pusheen = {
+//   name: 'Pusheen',
+//   age: 7,
+//   colour: 'gray and tabby',
+//   isHappy: true,
+//   favouriteFood: 'cookies',
+// };
 /*
 if you have a long key like "favourite food", then you need quotes
 */

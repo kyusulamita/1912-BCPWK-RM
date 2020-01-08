@@ -24,7 +24,7 @@ pusheen.siblings.sister = {
   age: 2
 };
 // console.log(JSON.stringify(pusheen, null, 2))
-console.log(pusheen)
+// console.log(pusheen)
 console.log(pusheen.siblings.sister.name)
 
 // pusheen.siblings.brother = {
