@@ -222,11 +222,9 @@
 7. [High Order Function + Params](11-high-order-functions-ii/07-high-order-function-with-params.js)
 8. [Both have params](11-high-order-functions-ii/08-both-have-params.js)
 9. [Both have params II](11-high-order-functions-ii/09-both-have-params-ii.js)
-
-
 ## **12 Recursion I**
 
-**[Live Lecture]()**
+**[Live Lecture](https://www.youtube.com/watch?v=y04bUaHq7wE)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca423037312200043b634a/content/5aca423137312200043b634e/text)
 
@@ -249,7 +247,7 @@
 
 ## **13 Recursion II**
 
-**[Live Lecture]()**
+**[Live Lecture](https://www.youtube.com/watch?v=kcl2Tj4EYWg)**
 
 [Workshop](https://learn.fullstackacademy.com/workshop/5aca509c37312200043b6422/content/5aca509c37312200043b6426/text)
 
